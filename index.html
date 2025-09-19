@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neon Pong</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="game"></canvas>
+
+    <div id="overlay" class="overlay">
+      <div class="panel">
+        <h1>Neon Pong</h1>
+        <p>One Player vs Computer</p>
+        <div class="controls">
+          <p>Controls: Arrow Keys / W S or Mouse</p>
+        </div>
+        <div class="difficulty">
+          <button data-diff="easy">Easy</button>
+          <button data-diff="normal" class="active">Normal</button>
+          <button data-diff="hard">Hard</button>
+        </div>
+        <div class="actions">
+          <button id="playBtn">Play</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="hud">
+      <div class="score">
+        <span id="pScore">0</span>
+        <span class="sep">:</span>
+        <span id="cScore">0</span>
+      </div>
+      <div class="status">
+        <button id="pauseBtn" title="Pause/Resume">⏯</button>
+        <button id="menuBtn" title="Menu">☰</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+  </html>

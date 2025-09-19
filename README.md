@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# Neon-Pong
-A quick JS game to teaching js game development to people
-=======
 # Neon Pong
 
 A quick JS game to teach basic game development and a small browser-based neon-style Pong demo implemented in HTML, CSS, and JavaScript.
@@ -32,4 +28,3 @@ Customization
 
 License
 This project is licensed under the MIT License — see `LICENSE`.
->>>>>>> de325c8 (Initial commit: neon-pong game)
